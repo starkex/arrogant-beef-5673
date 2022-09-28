@@ -84,6 +84,34 @@
     cursor: pointer;
 }
 
+#nav-menu{
+    background-color: #2bb673;
+    display: flex;
+    
+}
+#nav-menu>ul{
+    width: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto;
+}
+#nav-menu>ul>li{
+    padding: 1%;
+    color: #fff;
+    font-size: 18px;
+}
+#nav-menu>ul>li:hover{
+    cursor: pointer;
+    background-color: #229760;
+    color: rgb(235, 235, 235);
+}
+
+.active{
+    background-color: #229760;
+    color: rgb(255, 255, 255);
+}
 @media all and (min-width:340px) and (max-width:480px){
     #navbar{
         width: 95%;
