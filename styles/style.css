@@ -1,0 +1,121 @@
+*{
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding:0.4% ;
+}
+#web-logo{
+    width: 100%;
+}
+#web-logo:hover{
+    cursor: pointer;
+}
+#navbar>div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+#navbar>div:nth-child(3)>a{
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    font-size: 12px;
+}
+
+#navbar>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+#navbar>div:nth-child(2)>img{
+    width: 15%;
+    transition: 0.3s;
+}
+#navbar>div:nth-child(2)>img:hover{
+    cursor: pointer;
+    transform: scale(1.11);
+    transition: 0.3s;    
+}
+
+#nav-fb{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #35619f;
+    padding:5px 10px 5px 10px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+#nav-mail{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #666666;
+    padding:5px 22px 5px 22px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+#nav-fb:hover{
+    background-color: white;
+    color: #35619f;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.4s;
+}
+#nav-mail:hover{
+    background-color: white;
+    color: #666666;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.4s;
+}
+#navbar>div:nth-child(4){
+    display: none;
+}
+.fa-bars:hover{
+    cursor: pointer;
+}
+
+@media all and (min-width:340px) and (max-width:480px){
+    #navbar{
+        width: 95%;
+        padding: 2%;
+    }
+    #navbar>div:nth-child(3){
+        display: none;
+    }
+    #navbar>div:nth-child(2){
+        display: none;
+    } 
+
+    .fa-bars{
+        font-size: 22px;
+    }
+    #web-logo{
+        width: 50%;
+    }
+}
+
+@media all and (min-width:481px) and (max-width:760px){
+    #navbar{
+        width: 95%;
+    }
+    #navbar>div:nth-child(3){
+        display: none;
+    }
+    #navbar>div:nth-child(2){
+        display: none;
+    } 
+
+    .fa-bars{
+        font-size: 32px;
+    }
+}
