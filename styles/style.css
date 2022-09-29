@@ -174,20 +174,20 @@
     align-items: center;
 }
 
-#blocks{
+#blocks, #blocks2, #blocks3{
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
 }
-#blocks>div{
+#blocks>div, #blocks2>div, #blocks3>div{
     text-align: center;
     margin: auto;
     width: 19%;
 }
-#blocks>div>img{
+#blocks>div>img, #blocks2>div>img, #blocks3>div>img{
     width: 100%;
 }
-#blocks>div>p{
+#blocks>div>p, #blocks2>div>p, #blocks3>div>p{
     font-size: 13px;
 }
 @media all and (min-width:340px) and (max-width:480px){
