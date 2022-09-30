@@ -397,18 +397,36 @@
     padding-left: 16px;
     margin: auto;
     background-color: White;
-    width: 32%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 18px;
     padding: 0.5% 2% 2% 2%; 
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .w3-modal {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
+#opt{
+    display: flex;
+    justify-content: space-between;
+}
+#opt>a{
+    font-size: 17px;
+    color: #72787f;
+    text-decoration: none;
+}
+#opt>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
+#sec_div:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #f2f2f2;
+}
 /*Modal Css End**/
 @media all and (min-width:340px) and (max-width:480px){
     #navbar{
