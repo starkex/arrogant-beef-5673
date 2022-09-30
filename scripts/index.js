@@ -4,8 +4,11 @@ import NavMenu from "../components/navmenu.js";
 document.getElementById('navbar').innerHTML = NavBar()
 document.getElementById('nav-menu').innerHTML = NavMenu()
 
+document.getElementById('web-logo').addEventListener('click',()=>{
+	window.location.href = 'index.html'
+})
+
 let act = document.querySelectorAll('.menu li>a')
-// console.log(act)
 for(let i=0;i<act.length;i++){
     act[i].onclick = function(){
         let ive = document.querySelector('.menu li.active');
@@ -13,6 +16,17 @@ for(let i=0;i<act.length;i++){
         this.parentNode.classList.add('active');
     };
 }
+
+document.querySelector('.menu>li:nth-child(1)').addEventListener('click',()=>{
+    window.location.href = 'index.html'
+})
+document.querySelector('.menu>li:nth-child(7)').addEventListener('click',()=>{
+    window.location.href = 'article.html'
+})
+document.querySelector('.menu>li:nth-child(6)').addEventListener('click',()=>{
+    window.location.href = 'directory.html'
+})
+
 
 const News = async ()=>{
     let res = await fetch(`https://snacks-api1o1.herokuapp.com/elements/Snacks`)

@@ -1,6 +1,6 @@
 function NavMenu(){
     return ` <ul class="menu">
-    <li class="active"><a >Home</a></li>
+    <li><a >Home</a></li>
     <li><a >Meal Deals</a></li>
     <li><a >KindMoments</a></li>
     <li><a >HotPicks</a></li>
