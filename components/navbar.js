@@ -15,6 +15,7 @@ const NavBar = ()=>{
         <span>|</span>
         <a href="signup.html">Sign Up</a>
     </div>
+    
     <div>
         <i class="fa-solid fa-bars"></i>
     </div>`
