@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+  width: 70%;
+  gap:40px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+#container1 {
+  width: 45%;
+  height: auto;
+}
+#container1 > div {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  text-align: center;
+  border-radius: 10px;
+}
+#images {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+#container1 > div > div {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#advertisement {
+  width: 100%;
+  
+  height: auto;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#images {
+  width: 80%;
+  border-radius: 5px;
+}
+#advertisement{
+    padding: 30px;
+    padding-bottom: 100px;
+}
+#advertisement > div {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+#adsbox {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(30, 26, 26);
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#button {
+  text-align: center;
+}
+#but {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  width: 250px;
+  border: 0px;
+  font-size: 20px;
+  padding: 15px;
+}
+#container a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+#container a:hover {
+  text-decoration: underline;
+}
+#advertisement h3 {
+  color: rgb(23, 24, 23);
+}
+li {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.help{
+    margin-top: 15px;
+}
+#bottom{
+    margin-top: 100px;
+}
+#button{
+    margin-top: 20px;
+}
