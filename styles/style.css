@@ -338,7 +338,78 @@
     justify-content: center;
 }
 
+/***Modal Css**/
+#signup-modal:hover{
+    cursor: pointer;
+}
+.modal-button{
+    font-size: 30px;
+    color: #adb2b8;
+    display: flex;
+    justify-content: end;
+}
+.modal-button:hover{
+    cursor: pointer;
+}
+.top_div{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: auto;
+    margin-bottom: 2%;
+}
+.top_div>h2{
+    font-size:20px;
+    text-align: center;
+    font-weight: 700;
+}
+#sec_div{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+    padding: 3%;
+    gap: 20px;
+}
+#sec_div>div:nth-child(1){
+    gap: 10px;
+    width: 50%;
+}
+#sec_div>div:nth-child(2)>p{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#sec_div>div:nth-child(2){
+    gap: 10px;
+    width: 100%;
+}
 
+#sec_div>div>img{
+    width: 100%;
+}
+.modal-div{
+    padding: 0.01em 16px;
+    padding-top: 0.01em;
+    padding-right: 16px;
+    padding-bottom: 0.01em;
+    padding-left: 16px;
+    margin: auto;
+    background-color: White;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0.5% 2% 2% 2%; 
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.w3-modal {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*Modal Css End**/
 @media all and (min-width:340px) and (max-width:480px){
     #navbar{
         width: 95%;

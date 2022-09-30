@@ -13,7 +13,7 @@ const NavBar = ()=>{
         <button id="nav-fb">Facebook</button>
         <button id="nav-mail">Email</button>
         <span>|</span>
-        <a href="signup.html">Sign Up</a>
+        <a id='signup-modal'>Sign Up</a>
     </div>
     
     <div>
