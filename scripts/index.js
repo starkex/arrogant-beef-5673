@@ -89,3 +89,9 @@ Veg()
 //             console.log(el['card__img src'])
 //     });
 // }
+
+
+let popup_btn=document.getElementById("signup")
+popup_btn.addEventListener("click",()=>{
+    document.getElementById('id01').style.display='block'
+})
