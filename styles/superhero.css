@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  display: flex;
+  width: 70%;
+  gap: 40px;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#container1 {
+  width: 30%;
+}
+#container1 > div {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  text-align: center;
+  border-radius: 10px;
+}
+#images {
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#container1 > div > div {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#container2 {
+  width: 70%;
+  height: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 30px;
+  font-size: 16px;
+  margin-top: 12px;
+}
+#form{
+    margin: auto;
+}
+#box {
+  width: 95%;
+  height: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+#images {
+  width: 80%;
+  margin: 20px 0px;
+}
+h4{
+    margin-top: 20px;
+}
+#container a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+#container a:hover {
+  text-decoration: underline;
+}
+#box1 {
+  text-align: center;
+}
+
+q {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+}
+#box2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#box2 > div {
+  width: 15%;
+  height: auto;
+}
+p{
+    margin-top: 20px;
+}
+button {
+  background-color: green;
+  border: none;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#qo {
+  font-size: 50px;
+}
+#sig a {
+  font-size: 25px;
+}
+#superhero {
+  font-size: 25px;
+  margin-top: 70px;
+  text-align: center;
+}
