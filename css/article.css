@@ -2,9 +2,28 @@
     margin: 0;
     padding: 0;
 }
-
+#header{
+  
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(69, 69, 69);
+  }
+  #header>div{
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+  }
+  #header>div a{
+    text-decoration: none;
+  }
+  #header>div>p:nth-child(2){
+    margin-top: 10px;
+  }
+  #header>div>p:nth-child(3){
+    margin-top: 10px;
+  }
 #container {
-    width: 80%;
+    width: 70%;
     height: auto;
     margin: auto;
     margin-top: 35px;

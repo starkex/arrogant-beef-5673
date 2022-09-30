@@ -9,35 +9,27 @@ console.log(data);
     let div = document.createElement('div')
     div.id = 'box'
 
-    let box1 = document.createElement('div');
-    box1.id = 'box1';
-
-    let box2 = document.createElement('div');
-    box2.id = 'box2'
-
     let img = document.createElement('img');
     img.src = data.urlToImage;
     img.id='poster';
 
-    let author = document.createElement('h1');
+    let author = document.createElement('h2');
     author.textContent = `Author:- ${data.author}`;
     author.id='author';
 
-    let desc = document.createElement('h1');
+    let desc = document.createElement('p');
     desc.textContent = `Description:- ${data.description}`;
     desc.id='desc'
 
-    let url = document.createElement('h2');
-    url.textContent = data.title;
-    url.id='title';
+    let btn = document.createElement('button');
+    btn.textContent = '<< Back To Articles'
+    btn.id = 'articlebtn';
+    btn.addEventListener("click", () => {
+        window.location.href = 'article.html'
+    })
 
-    let content = document.createElement('h2');
-    content.textContent = data.content;
-    content.id='content';
     
-    box2.append(author,desc,url,content)
-    box1.append(img,)
-    div.append(box1,box2)
+    div.append(img,author,desc,btn)
     details.append(div);
 }
 append()
