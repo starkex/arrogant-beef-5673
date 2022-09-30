@@ -107,7 +107,10 @@ Veg()
 // }
 
 
-let popup_btn=document.getElementById("signup")
-popup_btn.addEventListener("click",()=>{
+document.getElementById("signup-modal").addEventListener("click",()=>{
     document.getElementById('id01').style.display='block'
+})
+
+document.getElementById('signup-redirect').addEventListener('click',()=>{
+    window.location.href='signup.html'
 })
