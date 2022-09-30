@@ -1,8 +1,10 @@
 import { NavBar } from "../components/navbar.js";
 import NavMenu from "../components/navmenu.js";
+import { Footer } from "../components/footer.js";
 
 document.getElementById('navbar').innerHTML = NavBar()
 document.getElementById('nav-menu').innerHTML = NavMenu()
+document.getElementById('ft-back').innerHTML = Footer()
 
 document.getElementById('web-logo').addEventListener('click',()=>{
 	window.location.href = 'index.html'

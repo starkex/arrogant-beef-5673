@@ -191,6 +191,45 @@
 #blocks>div>p, #blocks2>div>p, #blocks3>div>p{
     font-size: 13px;
 }
+
+#ft-back{
+    background-color: #2bb673;
+    width: 100%;
+}
+#footer{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+}
+
+#copyright{
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 1%;
+}
+#copyright>p{
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+#footer>ul{
+    list-style-type: none;
+    color: #fff;
+}
+#footer>ul>li>h4{
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+#footer>ul>li{
+    line-height:20px;
+    font-size: 12px;
+}
+
 @media all and (min-width:340px) and (max-width:480px){
     #navbar{
         width: 95%;
@@ -208,6 +247,9 @@
     }
     #web-logo{
         width: 50%;
+    }
+    #footer{
+        flex-direction: column;
     }
 }
 
