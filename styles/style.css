@@ -191,7 +191,16 @@
 #blocks>div>p, #blocks2>div>p, #blocks3>div>p{
     font-size: 13px;
 }
-
+#block-items{
+    width: 55%;
+    font-size: 22px;
+    color: #2766be;
+    display: flex;
+    justify-content: space-around;
+}
+#block-items>a{
+    text-decoration: none;
+}
 #ft-back{
     background-color: #2bb673;
     width: 100%;
