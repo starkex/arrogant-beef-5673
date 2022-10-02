@@ -14,7 +14,11 @@
 width: 75%;
 margin: auto;
 }
+
 #box-r{
+
+#box{
+
    width: 75%;
    margin: auto;
    display: flex;

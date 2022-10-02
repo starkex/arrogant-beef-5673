@@ -37,7 +37,17 @@ document.querySelector('.menu>li:nth-child(7)').addEventListener('click',()=>{
 document.querySelector('.menu>li:nth-child(6)').addEventListener('click',()=>{
     window.location.href = 'directory.html'
 })
+  
+document.querySelector('.menu>li:nth-child(4)').addEventListener('click',()=>{
+    window.location.href = "https://www.kindmeal.my/hotpicks.htm"
+})
 
+document.querySelector('.menu>li:nth-child(5)').addEventListener('click',()=>{
+    window.location.href = 'Recipe.html'
+})
+document.querySelector('.menu>li:nth-child(8)').addEventListener('click',()=>{
+    window.location.href = 'help.html'
+})
 
 const News = async ()=>{
     let res = await fetch(`https://snacks-api1o1.herokuapp.com/elements/Snacks`)

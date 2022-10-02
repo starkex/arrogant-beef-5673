@@ -1,3 +1,4 @@
+
 // import { navbar, navbar2 } from "../component/navbar.js";
 import { NavBar } from "../components/navbar.js";
 import NavMenu from "../components/navmenu.js";
@@ -33,6 +34,16 @@ document.querySelector('.menu>li:nth-child(7)').addEventListener('click',()=>{
 document.querySelector('.menu>li:nth-child(6)').addEventListener('click',()=>{
     window.location.href = 'directory.html'
 })
+=======
+import { navbar, navbar2 } from "../component/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("navbar2").innerHTML = navbar2();
+
+import { footer, bigfooter } from "../component/footer.js";
+document.getElementById("footer").innerHTML = footer();
+document.getElementById("bigfooter").innerHTML = bigfooter();
+
+
 
 let usrName = JSON.parse(localStorage.getItem("username"));
 if (usrName !== null) {
