@@ -33,6 +33,9 @@ document.querySelector('.menu>li:nth-child(3)').addEventListener('click',()=>{
 document.querySelector('.menu>li:nth-child(7)').addEventListener('click',()=>{
     window.location.href = 'article.html'
 })
+document.querySelector('.menu>li:nth-child(5)').addEventListener('click',()=>{
+    window.location.href = 'recepies.html'
+})
 document.querySelector('.menu>li:nth-child(6)').addEventListener('click',()=>{
     window.location.href = 'directory.html'
 })

@@ -25,10 +25,15 @@ document.querySelector('.menu>li:nth-child(6)').addEventListener('click',()=>{
 })
 
 document.querySelector('.menu>li:nth-child(5)').addEventListener('click',()=>{
+   window.location.href = 'recepies.html'
+
+
+document.querySelector('.menu>li:nth-child(5)').addEventListener('click',()=>{
    window.location.href = 'Recipe.html'
 })
 document.querySelector('.menu>li:nth-child(8)').addEventListener('click',()=>{
    window.location.href = 'help.html'
+
 })
 const myData = async()=>
 {
