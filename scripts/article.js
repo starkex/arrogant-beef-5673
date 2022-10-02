@@ -67,13 +67,13 @@ let appendedData = (data) => {
     container.innerHtml = null;
     data.forEach(({ description, urlToImage, title }, index) => {
         let box = document.createElement('div');
-        box.id = 'box';
+        box.id = 'box-a';
 
         let box1 = document.createElement('div');
-        box1.id = 'box1';
+        box1.id = 'box1-a';
 
         let box2 = document.createElement('div');
-        box2.id = 'box2'
+        box2.id = 'box2-a'
 
         let img = document.createElement('img');
         img.src = urlToImage;
